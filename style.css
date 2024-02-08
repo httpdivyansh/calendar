@@ -39,7 +39,7 @@ header .current-date{
 
 
 
-header .icon span{
+header .icons span{
     height: 30px;
     width:  30px;
     margin: 0 0.5px;
@@ -53,12 +53,12 @@ header .icon span{
     margin-bottom:20px ;
 }
 
-header .icon span:last-child{
+header .icons span:last-child{
     margin-right: -10px;
 }
 
-header .icon span:hover{
-    background: r;
+header .icons span:hover{
+    background: rgb(131, 181, 131);
 }
 
 .calender{
@@ -120,11 +120,11 @@ header .icon span:hover{
 }
 
 .days li:hover::before{
-    background: #f2f2f2;
+    background: rgb(218, 216, 170);
     margin-left: 5px;
 }
 
 .days li.active::before{
-    background:  rgb(218, 216, 170);
+    background:  rgb(225, 169, 106);
     margin-left: 5px;
 }
